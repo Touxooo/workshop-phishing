@@ -3,7 +3,7 @@
 ## Disclaimer
 **Attention**, les informations que vous allez acquérir servent **uniquement** dans le cadre de l'éducation.
 **L’hameçonnage** ou **phishing** est une technique utilisée par des fraudeurs pour obtenir des renseignements personnels dans le but de perpétrer une usurpation d'identité.
-Cette **pratique** est très simple à mettre en place, donc soyez **vigilants**!
+Cette **pratique** est très simple à mettre en place, donc soyez **vigilants** lorsque vous rentrez vos identifiants!
 
 
 ## Technologies à utiliser
@@ -21,11 +21,11 @@ Créer une simple page web HTML avec un formulaire contenant deux inputs : email
 
 
 ### Exercice 2
-Créer un fichier **PHP** qui récupère les informations données dans le formulaire créé précédément. Vous devez obligatoirement lier le **\<form>** au script PHP, et y ajouter le méthode **POST**. Ensuite, faites en sorte que les **identifiants** récupérés dans le PHP s'affichent après avoir cliqué sur le bouton **Submit**.
+Créer un fichier **PHP** qui récupère les informations données dans le formulaire créé précédément. Vous devez obligatoirement lier le **\<form>** au script PHP, et y ajouter le méthode **POST**. Ensuite, faites en sorte que les **identifiants** récupérés dans le PHP s'affichent sur la page web après avoir cliqué sur le bouton **Submit**.
 Pour **tester** votre programme, utilisez la commande suivante à la racine de votre projet: ```php -S localhost:[PORT]```, mettez le port que vous souhaitez (ex: 6969) à la place de **[PORT]**
 
 ### Exercice 3
-**Maintenant** qu'on arrive à afficher les **identifiants**, il serait utile de pouvoir les **stocker**, pour ainsi pouvoir les consulter quand on veut. **Améliorez** le script pour y ajouter cette **fonctionnalité**, puis en **ajoutant** la **date et heure** de la récupération d'identifiants
+**Maintenant** qu'on arrive à afficher les **identifiants**, il serait utile de pouvoir les **stocker**, pour ainsi pouvoir les consulter quand on veut. **Améliorez** le script pour y ajouter cette **fonctionnalité**, puis en **ajoutant** la **date et heure** de la récupération d'identifiants.
 
 ### Exercice 4
 Évidemment,  avec un site web comme ça, une personne un minimum méfiante ne rentrerait pas ses informations personnelles. Alors, pour que le phishing fonctionne, il faut se faire passer pour **quelqu'un** ou **quelque chose**. Admettons qu'une personne veuille récupérer vos identifiants personnelles **Instagram**, alors elle vous enverra un lien vers une **fausse page de connexion** Instagram en espérant que vous tombiez dans le piège.
